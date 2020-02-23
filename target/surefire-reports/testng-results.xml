@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10627" started-at="2020-02-08T16:14:42Z" finished-at="2020-02-08T16:14:53Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="4410" started-at="2020-02-08T16:14:42Z" finished-at="2020-02-08T16:14:46Z">
+      <class name="Tests.OrangeHRMTest">
+        <test-method status="PASS" signature="OrangeLoginTest()[pri:3, instance:Tests.OrangeHRMTest@41813449]" name="OrangeLoginTest" duration-ms="4071" started-at="2020-02-08T16:14:42Z" finished-at="2020-02-08T16:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeLoginTest -->
+      </class> <!-- Tests.OrangeHRMTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="6107" started-at="2020-02-08T16:14:47Z" finished-at="2020-02-08T16:14:53Z">
+      <class name="Tests.OrangeHRMTest">
+        <test-method status="PASS" signature="StartTest()[pri:0, instance:Tests.OrangeHRMTest@41813449]" name="StartTest" is-config="true" duration-ms="40892" started-at="2020-02-08T16:13:23Z" finished-at="2020-02-08T16:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method status="PASS" signature="StartTest()[pri:0, instance:Tests.googleTest@4721d212]" name="StartTest" is-config="true" duration-ms="38405" started-at="2020-02-08T16:14:04Z" finished-at="2020-02-08T16:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method status="PASS" signature="ShutDown()[pri:0, instance:Tests.OrangeHRMTest@41813449]" name="ShutDown" is-config="true" duration-ms="929" started-at="2020-02-08T16:14:53Z" finished-at="2020-02-08T16:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+      </class> <!-- Tests.OrangeHRMTest -->
+      <class name="Tests.googleTest">
+        <test-method status="PASS" signature="googleSearchTest1()[pri:1, instance:Tests.googleTest@4721d212]" name="googleSearchTest1" duration-ms="3900" started-at="2020-02-08T16:14:47Z" finished-at="2020-02-08T16:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest1 -->
+        <test-method status="PASS" signature="googleSearchTest2()[pri:2, instance:Tests.googleTest@4721d212]" name="googleSearchTest2" duration-ms="2176" started-at="2020-02-08T16:14:50Z" finished-at="2020-02-08T16:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest2 -->
+        <test-method status="PASS" signature="ShutDown()[pri:0, instance:Tests.googleTest@4721d212]" name="ShutDown" is-config="true" duration-ms="0" started-at="2020-02-08T16:14:53Z" finished-at="2020-02-08T16:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+      </class> <!-- Tests.googleTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
